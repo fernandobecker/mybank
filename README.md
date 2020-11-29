@@ -13,7 +13,7 @@ Build Restful CRUD API for a simple bank application using Spring Boot, H2 and J
 **1. Clone the application**
 
 ```bash
-git clone git@github.com:mlomboglia/my-bank.git
+git clone git@github.com:fernandobecker/mybank.git
 ```
 
 **2. Build and run the app using maven**
