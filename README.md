@@ -26,6 +26,8 @@ The app will start running at <http://localhost:8080>.
 
 ## Explore Rest APIs
 
+http://localhost:8080/api-docs
+
 The app defines following CRUD APIs.
 
     GET /accounts/all
@@ -35,6 +37,5 @@ The app defines following CRUD APIs.
     POST /accounts/new
     
     PUT /accounts/{id}
-      Param: double amount
 
 You can test them using postman or any other rest client.
