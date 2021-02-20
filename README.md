@@ -26,7 +26,7 @@ The app will start running at <http://localhost:8080>.
 
 ## Explore Rest APIs
 
-http://localhost:8080/api-docs
+http://localhost:8080/swagger
 
 The app defines following CRUD APIs.
 
