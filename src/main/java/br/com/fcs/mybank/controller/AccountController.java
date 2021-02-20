@@ -24,7 +24,7 @@ public class AccountController {
     @Autowired
     private AccountRepository accountRepository;
 
-    @GetMapping("/accounts/all")
+    @GetMapping("/accounts")
     public List<Account> getAllAccounts() {
         return accountRepository.findAll();
     }
@@ -35,7 +35,7 @@ public class AccountController {
                 .orElseThrow(() -> new ResourceNotFoundException("Account", "id", accountId));
     }
 
-    @PostMapping("/accounts/new")
+    @PostMapping("/accounts")
     public Account createAccount(@Valid @RequestBody Account account) {
         return accountRepository.save(account);
     }

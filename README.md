@@ -30,11 +30,11 @@ http://localhost:8080/api-docs
 
 The app defines following CRUD APIs.
 
-    GET /accounts/all
+    GET /accounts
     
     GET /accounts/{id}
     
-    POST /accounts/new
+    POST /accounts
     
     PUT /accounts/{id}
 
