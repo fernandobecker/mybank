@@ -47,6 +47,9 @@ You can check the data created by h2 in memory:
 http://localhost:8080/h2-console
 
 Driver Class: org.h2.Driver
+
 JDBC URL: jdbc:h2:mem:testdb
+
 User Name: sa
+
 Password: ""
