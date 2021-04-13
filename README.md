@@ -42,7 +42,7 @@ You can test them using postman or any other rest client.
 
 ## Database View
 
-You can check the data created by h2 in memory:
+You can check the data created in memory H2:
 
 http://localhost:8080/h2-console
 
